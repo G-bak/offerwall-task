@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>캠페인 등록</title>
+</head>
+<body>
+  <h2>📢 캠페인 등록 폼</h2>
+  <form id="campaignForm">
+    <label>광고주 ID: <input type="text" name="user_id" required /></label><br><br>
+    <label>광고유형: <input type="text" name="type" required /></label><br><br>
+    <label>세부유형: <input type="text" name="subtype" /></label><br><br>
+    <label>키워드: <input type="text" name="keywords" /></label><br><br>
+    <label>랭킹 키워드: <input type="text" name="rank_keyword" /></label><br><br>
+    <label>링크: <input type="text" name="link" /></label><br><br>
+    <label>시작일시: <input type="datetime-local" name="start_date" required /></label><br><br>
+    <label>종료일시: <input type="datetime-local" name="end_date" required /></label><br><br>
+    <label>목표 수량: <input type="number" name="quantity" required /></label><br><br>
+    <button type="submit">등록하기</button>
+  </form>
+
+  <p id="responseMessage" style="color: green;"></p>
+
+  <script>
+    document.getElementById("campaignForm").addEventListener("submit", async function (e) {
+      e.preventDefault();
+      const form = e.target;
+      const data = {
+        user_id: form.user_id.value,
+        type: form.type.value,
+        subtype: form.subtype.value,
+        keywords: form.keywords.value,
+        rank_keyword: form.rank_keyword.value,
+        link: form.link.value,
+        start_date: new Date(form.start_date.value).toISOString(),
+        end_date: new Date(form.end_date.value).toISOString(),
+        quantity: Number(form.quantity.value)
+      };
+
+      const res = await fetch("http://localhost:5000/campaigns", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      });
+
+      const result = await res.json();
+      if (res.ok) {
+        document.getElementById("responseMessage").textContent =
+          `✅ 캠페인 등록 성공 (id=${result.campaign_id || "확인 필요"})`;
+      } else {
+        document.getElementById("responseMessage").textContent =
+          `❌ 오류: ${result.detail || result.message}`;
+      }
+    });
+  </script>
+</body>
+</html>

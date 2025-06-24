@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>유입 순위 리포트</title>
+</head>
+<body>
+  <h2>📈 유입 순위 TOP 10</h2>
+  <table border="1" cellpadding="6">
+    <thead>
+      <tr>
+        <th>순위</th>
+        <th>사용자 ID</th>
+        <th>캠페인 ID</th>
+        <th>유입 수</th>
+      </tr>
+    </thead>
+    <tbody id="reportBody"></tbody>
+  </table>
+
+  <script>
+    fetch("http://localhost:5000/reports/top-users")
+      .then(res => res.json())
+      .then(data => {
+        const tbody = document.getElementById("reportBody");
+        data.forEach((item, idx) => {
+          const row = document.createElement("tr");
+          row.innerHTML = `
+            <td>${idx + 1}</td>
+            <td>${item.user_id}</td>
+            <td>${item.campaign_id}</td>
+            <td>${item.count}</td>
+          `;
+          tbody.appendChild(row);
+        });
+      });
+  </script>
+</body>
+</html>

@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <title>이름 인사하기</title>
+  <meta charset="UTF-8" />
+  <title>오퍼월 트래킹 테스트</title>
+  <script src="form.js" defer></script>
 </head>
 <body>
-    <h1>이름을 입력하세요</h1>
-    <form id="nameForm">
-        <input type="text" id="nameInput" placeholder="이름 입력" required />
-        <button type="submit">보내기</button>
-    </form>
-    <p id="responseArea"></p>
+  <h1>오퍼월 트래픽 트래킹 테스트</h1>
 
-    <script src="./static/js/form.js" defer></script>
+  <form id="trackForm">
+    <label>사용자 ID: <input type="text" id="userIdInput" required /></label><br><br>
+    <label>캠페인 ID: <input type="number" id="campaignIdInput" required /></label><br><br>
+    <button type="submit">[수동] 트래킹 요청</button>
+  </form>
+
+  <hr>
+
+  <button id="autoTrackBtn">[자동] track.js 삽입 후 실행</button>
+
+  <p id="resultText" style="margin-top:20px; color: green;"></p>
 </body>
 </html>
