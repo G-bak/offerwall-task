@@ -1,0 +1,256 @@
+2025-06-25 08:40:10,760 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 08:40:47,894 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 08:49:16,189 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 08:51:53,576 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 08:52:39,281 - app_logger - ERROR - log_config.py:53 - Exception message: 500: Expecting ',' delimiter: line 2 column 11 (char 12)
+2025-06-25 08:52:39,281 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 08:52:39,281 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 73, Function: app, Code: response = await f(request)
+2025-06-25 08:52:39,281 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py, Line: 301, Function: app, Code: raw_response = await run_endpoint_function(
+2025-06-25 08:52:39,281 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py, Line: 212, Function: run_endpoint_function, Code: return await dependant.call(**values)
+2025-06-25 08:52:39,292 - app_logger - ERROR - log_config.py:61 - File: routers\sql_workbench\router.py, Line: 86, Function: read_guide_file, Code: raise HTTPException(status_code=500, detail=str(e))
+2025-06-25 08:52:39,292 - app_logger - ERROR - exception_handlers.py:44 - 500 Error: Path=/sql-workbench/guide-files/1_Ä·ÆäÀÎ µî·Ï.sql, Detail=Expecting ',' delimiter: line 2 column 11 (char 12)
+2025-06-25 09:03:10,173 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 09:09:42,015 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 09:09:46,037 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 09:54:55,974 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 09:56:32,573 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 09:56:40,566 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 09:56:42,901 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 09:57:12,112 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 09:58:07,182 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 10:21:04,950 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 10:24:34,680 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 10:40:12,066 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 10:40:21,630 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 10:42:40,790 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 10:47:34,578 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:09:01,424 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:10:27,373 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:22:16,287 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:36:06,797 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:36:56,001 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:40:17,982 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:40:25,746 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:41:59,387 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:42:52,566 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:42:59,195 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:43:38,917 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:43:54,879 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:50:29,022 - app_logger - ERROR - log_config.py:53 - Exception message: 404: Not Found
+2025-06-25 11:50:29,023 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 11:50:29,023 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 714, Function: __call__, Code: await self.middleware_stack(scope, receive, send)
+2025-06-25 11:50:29,023 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 764, Function: app, Code: await self.default(scope, receive, send)
+2025-06-25 11:50:29,024 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 650, Function: not_found, Code: raise HTTPException(status_code=404)
+2025-06-25 11:50:29,024 - app_logger - ERROR - main.py:45 - 404 Error: Path=/tracking-test, Method=GET, Client=127.0.0.1
+2025-06-25 11:50:42,551 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:50:42,824 - app_logger - ERROR - log_config.py:53 - Exception message: 404: Not Found
+2025-06-25 11:50:42,825 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 11:50:42,825 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 714, Function: __call__, Code: await self.middleware_stack(scope, receive, send)
+2025-06-25 11:50:42,825 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 764, Function: app, Code: await self.default(scope, receive, send)
+2025-06-25 11:50:42,826 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 650, Function: not_found, Code: raise HTTPException(status_code=404)
+2025-06-25 11:50:42,826 - app_logger - ERROR - main.py:45 - 404 Error: Path=/favicon.ico, Method=GET, Client=127.0.0.1
+2025-06-25 11:52:21,469 - app_logger - ERROR - log_config.py:53 - Exception message: 404: Not Found
+2025-06-25 11:52:21,469 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 11:52:21,470 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 714, Function: __call__, Code: await self.middleware_stack(scope, receive, send)
+2025-06-25 11:52:21,470 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 764, Function: app, Code: await self.default(scope, receive, send)
+2025-06-25 11:52:21,470 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 650, Function: not_found, Code: raise HTTPException(status_code=404)
+2025-06-25 11:52:21,470 - app_logger - ERROR - main.py:45 - 404 Error: Path=/track, Method=POST, Client=127.0.0.1
+2025-06-25 11:52:21,476 - app_logger - ERROR - log_config.py:53 - Exception message: 404: Not Found
+2025-06-25 11:52:21,477 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 11:52:21,477 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 714, Function: __call__, Code: await self.middleware_stack(scope, receive, send)
+2025-06-25 11:52:21,478 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 764, Function: app, Code: await self.default(scope, receive, send)
+2025-06-25 11:52:21,478 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 650, Function: not_found, Code: raise HTTPException(status_code=404)
+2025-06-25 11:52:21,478 - app_logger - ERROR - main.py:45 - 404 Error: Path=/favicon.ico, Method=GET, Client=127.0.0.1
+2025-06-25 11:56:05,034 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:58:08,327 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:58:42,669 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 11:58:46,462 - app_logger - ERROR - log_config.py:53 - Exception message: 404: Not Found
+2025-06-25 11:58:46,463 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 11:58:46,463 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 714, Function: __call__, Code: await self.middleware_stack(scope, receive, send)
+2025-06-25 11:58:46,464 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 764, Function: app, Code: await self.default(scope, receive, send)
+2025-06-25 11:58:46,464 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 650, Function: not_found, Code: raise HTTPException(status_code=404)
+2025-06-25 11:58:46,464 - app_logger - ERROR - main.py:45 - 404 Error: Path=/favicon.ico, Method=GET, Client=127.0.0.1
+2025-06-25 11:58:57,324 - app_logger - ERROR - log_config.py:53 - Exception message: 404: Not Found
+2025-06-25 11:58:57,324 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 11:58:57,324 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 714, Function: __call__, Code: await self.middleware_stack(scope, receive, send)
+2025-06-25 11:58:57,325 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 764, Function: app, Code: await self.default(scope, receive, send)
+2025-06-25 11:58:57,325 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 650, Function: not_found, Code: raise HTTPException(status_code=404)
+2025-06-25 11:58:57,325 - app_logger - ERROR - main.py:45 - 404 Error: Path=/favicon.ico, Method=GET, Client=127.0.0.1
+2025-06-25 12:00:40,886 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 12:03:13,680 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 12:10:18,668 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 12:11:03,216 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 12:11:50,903 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 12:13:06,604 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 12:14:28,015 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 12:14:28,929 - app_logger - ERROR - log_config.py:53 - Exception message: (pymysql.err.DataError) (1406, "Data too long for column 'device' at row 1")
+[SQL: INSERT INTO logs (user_id, campaign_id, action_time, result, ip, device, event, referrer, user_agent, language, screen) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)]
+[parameters: ('u001', '1', datetime.datetime(2025, 6, 25, 3, 14, 28, 925227, tzinfo=datetime.timezone.utc), 'valid', '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'visit_valid', 'http://127.0.0.1:8000/sql-workbench', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36', 'ko-KR', '1920x1080')]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-06-25 12:14:28,963 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\errors.py, Line: 165, Function: __call__, Code: await self.app(scope, receive, _send)
+2025-06-25 12:14:28,963 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\exceptions.py, Line: 62, Function: __call__, Code: await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+2025-06-25 12:14:28,963 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 53, Function: wrapped_app, Code: raise exc
+2025-06-25 12:14:28,964 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 12:14:28,964 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 714, Function: __call__, Code: await self.middleware_stack(scope, receive, send)
+2025-06-25 12:14:28,964 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 734, Function: app, Code: await route.handle(scope, receive, send)
+2025-06-25 12:14:28,964 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 288, Function: handle, Code: await self.app(scope, receive, send)
+2025-06-25 12:14:28,964 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 76, Function: app, Code: await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+2025-06-25 12:14:28,965 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 53, Function: wrapped_app, Code: raise exc
+2025-06-25 12:14:28,965 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 12:14:28,965 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 73, Function: app, Code: response = await f(request)
+2025-06-25 12:14:28,965 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py, Line: 301, Function: app, Code: raw_response = await run_endpoint_function(
+2025-06-25 12:14:28,965 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py, Line: 212, Function: run_endpoint_function, Code: return await dependant.call(**values)
+2025-06-25 12:14:28,965 - app_logger - ERROR - log_config.py:61 - File: routers\tracking\router.py, Line: 47, Function: track, Code: await db.flush()
+2025-06-25 12:14:28,965 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\ext\asyncio\session.py, Line: 800, Function: flush, Code: await greenlet_spawn(self.sync_session.flush, objects=objects)
+2025-06-25 12:14:28,966 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py, Line: 203, Function: greenlet_spawn, Code: result = context.switch(value)
+2025-06-25 12:14:28,966 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\session.py, Line: 4352, Function: flush, Code: self._flush(objects)
+2025-06-25 12:14:28,966 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\session.py, Line: 4487, Function: _flush, Code: with util.safe_reraise():
+2025-06-25 12:14:28,966 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\util\langhelpers.py, Line: 146, Function: __exit__, Code: raise exc_value.with_traceback(exc_tb)
+2025-06-25 12:14:28,966 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\session.py, Line: 4448, Function: _flush, Code: flush_context.execute()
+2025-06-25 12:14:28,966 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\unitofwork.py, Line: 466, Function: execute, Code: rec.execute(self)
+2025-06-25 12:14:28,966 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\unitofwork.py, Line: 642, Function: execute, Code: util.preloaded.orm_persistence.save_obj(
+2025-06-25 12:14:28,966 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\persistence.py, Line: 93, Function: save_obj, Code: _emit_insert_statements(
+2025-06-25 12:14:28,967 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\persistence.py, Line: 1233, Function: _emit_insert_statements, Code: result = connection.execute(
+2025-06-25 12:14:28,967 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\engine\base.py, Line: 1418, Function: execute, Code: return meth(
+2025-06-25 12:14:28,967 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\sql\elements.py, Line: 515, Function: _execute_on_connection, Code: return connection._execute_clauseelement(
+2025-06-25 12:14:28,967 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\engine\base.py, Line: 1640, Function: _execute_clauseelement, Code: ret = self._execute_context(
+2025-06-25 12:14:28,967 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\engine\base.py, Line: 1846, Function: _execute_context, Code: return self._exec_single_context(
+2025-06-25 12:14:28,967 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\engine\base.py, Line: 1986, Function: _exec_single_context, Code: self._handle_dbapi_exception(
+2025-06-25 12:14:28,967 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\engine\base.py, Line: 2355, Function: _handle_dbapi_exception, Code: raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+2025-06-25 12:14:28,967 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\engine\base.py, Line: 1967, Function: _exec_single_context, Code: self.dialect.do_execute(
+2025-06-25 12:14:28,968 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\engine\default.py, Line: 941, Function: do_execute, Code: cursor.execute(statement, parameters)
+2025-06-25 12:14:28,968 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py, Line: 95, Function: execute, Code: return self.await_(self._execute_async(operation, parameters))
+2025-06-25 12:14:28,968 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py, Line: 132, Function: await_only, Code: return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+2025-06-25 12:14:28,968 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py, Line: 196, Function: greenlet_spawn, Code: value = await result
+2025-06-25 12:14:28,968 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py, Line: 104, Function: _execute_async, Code: result = await self._cursor.execute(operation, parameters)
+2025-06-25 12:14:28,968 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\aiomysql\cursors.py, Line: 239, Function: execute, Code: await self._query(query)
+2025-06-25 12:14:28,969 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\aiomysql\cursors.py, Line: 457, Function: _query, Code: await conn.query(q)
+2025-06-25 12:14:28,969 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\aiomysql\connection.py, Line: 469, Function: query, Code: await self._read_query_result(unbuffered=unbuffered)
+2025-06-25 12:14:28,969 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\aiomysql\connection.py, Line: 683, Function: _read_query_result, Code: await result.read()
+2025-06-25 12:14:28,969 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\aiomysql\connection.py, Line: 1164, Function: read, Code: first_packet = await self.connection._read_packet()
+2025-06-25 12:14:28,970 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\aiomysql\connection.py, Line: 652, Function: _read_packet, Code: packet.raise_for_error()
+2025-06-25 12:14:28,970 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\pymysql\protocol.py, Line: 219, Function: raise_for_error, Code: err.raise_mysql_exception(self._data)
+2025-06-25 12:14:28,970 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\pymysql\err.py, Line: 150, Function: raise_mysql_exception, Code: raise errorclass(errno, errval)
+2025-06-25 12:15:15,444 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 12:15:27,186 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 12:18:17,913 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 12:20:25,217 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 12:21:34,067 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 12:53:41,677 - app_logger - ERROR - log_config.py:53 - Exception message: 404: Not Found
+2025-06-25 12:53:41,691 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 12:53:41,691 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 714, Function: __call__, Code: await self.middleware_stack(scope, receive, send)
+2025-06-25 12:53:41,691 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 764, Function: app, Code: await self.default(scope, receive, send)
+2025-06-25 12:53:41,692 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 650, Function: not_found, Code: raise HTTPException(status_code=404)
+2025-06-25 12:53:41,692 - app_logger - ERROR - main.py:54 - 404 Error: Path=/tracking-test, Method=GET, Client=127.0.0.1
+2025-06-25 12:54:02,230 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 13:00:18,106 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 13:03:11,775 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 13:03:50,057 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 13:04:29,168 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 13:04:44,569 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 13:16:38,515 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 13:39:18,726 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 13:41:30,364 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 13:43:23,878 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 13:44:19,823 - app_logger - ERROR - log_config.py:53 - Exception message: (sqlalchemy.exc.MissingGreenlet) greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place?
+[SQL: SELECT rewards.id AS rewards_id, rewards.log_id AS rewards_log_id, rewards.status AS rewards_status, rewards.paid_at AS rewards_paid_at 
+FROM rewards 
+WHERE rewards.id = %s]
+[parameters: [{'pk_1': 1}]]
+(Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-06-25 13:44:19,838 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\errors.py, Line: 165, Function: __call__, Code: await self.app(scope, receive, _send)
+2025-06-25 13:44:19,838 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\exceptions.py, Line: 62, Function: __call__, Code: await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+2025-06-25 13:44:19,838 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 53, Function: wrapped_app, Code: raise exc
+2025-06-25 13:44:19,838 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 13:44:19,839 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 714, Function: __call__, Code: await self.middleware_stack(scope, receive, send)
+2025-06-25 13:44:19,839 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 734, Function: app, Code: await route.handle(scope, receive, send)
+2025-06-25 13:44:19,839 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 288, Function: handle, Code: await self.app(scope, receive, send)
+2025-06-25 13:44:19,839 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 76, Function: app, Code: await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+2025-06-25 13:44:19,839 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 53, Function: wrapped_app, Code: raise exc
+2025-06-25 13:44:19,839 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 13:44:19,840 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 73, Function: app, Code: response = await f(request)
+2025-06-25 13:44:19,840 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py, Line: 301, Function: app, Code: raw_response = await run_endpoint_function(
+2025-06-25 13:44:19,840 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py, Line: 212, Function: run_endpoint_function, Code: return await dependant.call(**values)
+2025-06-25 13:44:19,840 - app_logger - ERROR - log_config.py:61 - File: routers\tracking\router.py, Line: 54, Function: track, Code: "status": reward.status.value,
+2025-06-25 13:44:19,840 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\attributes.py, Line: 566, Function: __get__, Code: return self.impl.get(state, dict_)  # type: ignore[no-any-return]
+2025-06-25 13:44:19,841 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\attributes.py, Line: 1086, Function: get, Code: value = self._fire_loader_callables(state, key, passive)
+2025-06-25 13:44:19,841 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\attributes.py, Line: 1116, Function: _fire_loader_callables, Code: return state._load_expired(state, passive)
+2025-06-25 13:44:19,841 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\state.py, Line: 803, Function: _load_expired, Code: self.manager.expired_attribute_loader(self, toload, passive)
+2025-06-25 13:44:19,841 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\loading.py, Line: 1670, Function: load_scalar_attributes, Code: result = load_on_ident(
+2025-06-25 13:44:19,841 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\loading.py, Line: 509, Function: load_on_ident, Code: return load_on_pk_identity(
+2025-06-25 13:44:19,841 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\loading.py, Line: 694, Function: load_on_pk_identity, Code: session.execute(
+2025-06-25 13:44:19,842 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\session.py, Line: 2362, Function: execute, Code: return self._execute_internal(
+2025-06-25 13:44:19,842 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\session.py, Line: 2247, Function: _execute_internal, Code: result: Result[Any] = compile_state_cls.orm_execute_statement(
+2025-06-25 13:44:19,842 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\orm\context.py, Line: 293, Function: orm_execute_statement, Code: result = conn.execute(
+2025-06-25 13:44:19,842 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\engine\base.py, Line: 1418, Function: execute, Code: return meth(
+2025-06-25 13:44:19,842 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\sql\elements.py, Line: 515, Function: _execute_on_connection, Code: return connection._execute_clauseelement(
+2025-06-25 13:44:19,842 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\engine\base.py, Line: 1640, Function: _execute_clauseelement, Code: ret = self._execute_context(
+2025-06-25 13:44:19,843 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\engine\base.py, Line: 1821, Function: _execute_context, Code: self._handle_dbapi_exception(
+2025-06-25 13:44:19,843 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\engine\base.py, Line: 2355, Function: _handle_dbapi_exception, Code: raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+2025-06-25 13:44:19,843 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\engine\base.py, Line: 1815, Function: _execute_context, Code: context = constructor(
+2025-06-25 13:44:19,843 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\engine\default.py, Line: 1418, Function: _init_compiled, Code: self.cursor = self.create_cursor()
+2025-06-25 13:44:19,843 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\engine\default.py, Line: 1752, Function: create_cursor, Code: return self.create_default_cursor()
+2025-06-25 13:44:19,844 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\engine\default.py, Line: 1758, Function: create_default_cursor, Code: return self._dbapi_connection.cursor()
+2025-06-25 13:44:19,844 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\pool\base.py, Line: 1485, Function: cursor, Code: return self.dbapi_connection.cursor(*args, **kwargs)
+2025-06-25 13:44:19,844 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py, Line: 198, Function: cursor, Code: return AsyncAdapt_aiomysql_cursor(self)
+2025-06-25 13:44:19,844 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\dialects\mysql\aiomysql.py, Line: 61, Function: __init__, Code: self._cursor = self.await_(cursor.__aenter__())
+2025-06-25 13:44:19,845 - app_logger - ERROR - log_config.py:61 - File: ..\..\..\..\ProgramData\anaconda3\Lib\site-packages\sqlalchemy\util\_concurrency_py3k.py, Line: 123, Function: await_only, Code: raise exc.MissingGreenlet(
+2025-06-25 13:45:16,710 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 13:46:36,025 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 13:47:38,715 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 13:49:54,972 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 14:56:21,353 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 14:57:14,194 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 16:08:29,150 - app_logger - ERROR - log_config.py:53 - Exception message: 404: Not Found
+2025-06-25 16:08:29,152 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 16:08:29,152 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 714, Function: __call__, Code: await self.middleware_stack(scope, receive, send)
+2025-06-25 16:08:29,152 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 764, Function: app, Code: await self.default(scope, receive, send)
+2025-06-25 16:08:29,152 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 650, Function: not_found, Code: raise HTTPException(status_code=404)
+2025-06-25 16:08:29,152 - app_logger - ERROR - main.py:54 - 404 Error: Path=/download-campaign-excel, Method=GET, Client=127.0.0.1
+2025-06-25 16:12:03,342 - app_logger - ERROR - log_config.py:53 - Exception message: 404: Not Found
+2025-06-25 16:12:03,342 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 16:12:03,342 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 714, Function: __call__, Code: await self.middleware_stack(scope, receive, send)
+2025-06-25 16:12:03,342 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 764, Function: app, Code: await self.default(scope, receive, send)
+2025-06-25 16:12:03,342 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 650, Function: not_found, Code: raise HTTPException(status_code=404)
+2025-06-25 16:12:03,342 - app_logger - ERROR - main.py:54 - 404 Error: Path=/export-excel, Method=POST, Client=127.0.0.1
+2025-06-25 16:12:15,292 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 16:15:07,391 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 16:16:21,708 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 16:17:30,413 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 16:17:36,992 - app_logger - ERROR - log_config.py:53 - Exception message: 0
+2025-06-25 16:17:36,992 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\errors.py, Line: 165, Function: __call__, Code: await self.app(scope, receive, _send)
+2025-06-25 16:17:36,992 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\exceptions.py, Line: 62, Function: __call__, Code: await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+2025-06-25 16:17:36,992 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 53, Function: wrapped_app, Code: raise exc
+2025-06-25 16:17:36,992 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 16:17:36,992 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 714, Function: __call__, Code: await self.middleware_stack(scope, receive, send)
+2025-06-25 16:17:36,992 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 734, Function: app, Code: await route.handle(scope, receive, send)
+2025-06-25 16:17:36,992 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 288, Function: handle, Code: await self.app(scope, receive, send)
+2025-06-25 16:17:36,992 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 76, Function: app, Code: await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+2025-06-25 16:17:36,992 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 53, Function: wrapped_app, Code: raise exc
+2025-06-25 16:17:36,992 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 16:17:36,992 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 73, Function: app, Code: response = await f(request)
+2025-06-25 16:17:36,992 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py, Line: 301, Function: app, Code: raw_response = await run_endpoint_function(
+2025-06-25 16:17:36,992 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py, Line: 212, Function: run_endpoint_function, Code: return await dependant.call(**values)
+2025-06-25 16:17:36,992 - app_logger - ERROR - log_config.py:61 - File: routers\sql_workbench\router.py, Line: 142, Function: export_excel, Code: for col_num, column_name in enumerate(data[0].keys(), 1):
+2025-06-25 16:20:48,095 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 16:20:48,660 - app_logger - ERROR - log_config.py:53 - Exception message: 404: Not Found
+2025-06-25 16:20:48,661 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 16:20:48,661 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 714, Function: __call__, Code: await self.middleware_stack(scope, receive, send)
+2025-06-25 16:20:48,661 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 764, Function: app, Code: await self.default(scope, receive, send)
+2025-06-25 16:20:48,661 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 650, Function: not_found, Code: raise HTTPException(status_code=404)
+2025-06-25 16:20:48,661 - app_logger - ERROR - main.py:54 - 404 Error: Path=/sql-workbench, Method=GET, Client=127.0.0.1
+2025-06-25 16:20:52,325 - app_logger - ERROR - log_config.py:53 - Exception message: 404: Not Found
+2025-06-25 16:20:52,325 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py, Line: 42, Function: wrapped_app, Code: await app(scope, receive, sender)
+2025-06-25 16:20:52,325 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 714, Function: __call__, Code: await self.middleware_stack(scope, receive, send)
+2025-06-25 16:20:52,325 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 764, Function: app, Code: await self.default(scope, receive, send)
+2025-06-25 16:20:52,325 - app_logger - ERROR - log_config.py:61 - File: ..\..\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py, Line: 650, Function: not_found, Code: raise HTTPException(status_code=404)
+2025-06-25 16:20:52,325 - app_logger - ERROR - main.py:54 - 404 Error: Path=/sql-workbench, Method=GET, Client=127.0.0.1
+2025-06-25 16:20:57,262 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 16:21:18,183 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 16:23:07,079 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 16:48:58,762 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 16:49:16,017 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 16:49:23,852 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 16:54:22,646 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 16:54:54,385 - app_logger - INFO - log_config.py:41 - Logging setup complete
+2025-06-25 17:00:47,513 - app_logger - INFO - log_config.py:41 - Logging setup complete

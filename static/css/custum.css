@@ -1,0 +1,60 @@
+.max-width-1280 {
+    max-width: 1280px;
+}
+
+.spec-table th,
+.spec-table td {
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.spec-table th:first-child,
+.spec-table td:first-child {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.section-header {
+    background-color: #f2f2f2 !important;
+    font-weight: bold;
+    text-align: left !important;
+    padding-left: 1rem;
+    color: #212529;
+    font-size: 0.75rem;
+}
+
+.product-name-row {
+    background-color: #343a40;
+    color: white;
+}
+
+.spec-table .yes {
+    color: #198754; /* Bootstrap success */
+    font-weight: bold;
+}
+
+.spec-table .no {
+    color: #dc3545; /* Bootstrap danger */
+    font-weight: bold;
+}
+
+.fixed-header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 0;
+}
+
+.section-tight {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  .section-tight {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+}
+

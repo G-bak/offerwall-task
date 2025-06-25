@@ -1,0 +1,63 @@
+{
+  "type": "input",
+  "table": "campaigns",
+  "columns": [
+    {
+      "label": "광고주 ID",
+      "name": "user_id",
+      "placeholder": "u001",
+      "value": "u001"
+    },
+    {
+      "label": "광고 유형",
+      "name": "type",
+      "placeholder": "네이버 쇼핑",
+      "value": "네이버 쇼핑"
+    },
+    {
+      "label": "세부 유형",
+      "name": "subtype",
+      "placeholder": "상세페이지",
+      "value": "상세페이지"
+    },
+    {
+      "label": "키워드",
+      "name": "keywords",
+      "placeholder": "키보드, 마우스",
+      "value": "키보드, 마우스"
+    },
+    {
+      "label": "랭킹 키워드",
+      "name": "rank_keyword",
+      "placeholder": "게이밍 키보드",
+      "value": "게이밍 키보드"
+    },
+    {
+      "label": "링크",
+      "name": "link",
+      "placeholder": "https://shopping.naver.com",
+      "value": "https://shopping.naver.com"
+    },
+    {
+      "label": "시작일",
+      "name": "start_date",
+      "type": "datetime-local",
+      "placeholder": "2025-07-01T00:00",
+      "value": "2025-07-01T00:00"
+    },
+    {
+      "label": "종료일",
+      "name": "end_date",
+      "type": "datetime-local",
+      "placeholder": "2025-07-15T23:59",
+      "value": "2025-07-15T23:59"
+    },
+    {
+      "label": "유입 수량",
+      "name": "quantity",
+      "type": "number",
+      "placeholder": "100",
+      "value": "100"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# --- Web Framework ---
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# --- Async DB & ORM ---
+sqlalchemy==2.0.30
+asyncmy==0.2.9             # 비동기 MySQL 드라이버
+pymysql==1.1.0             # (백그라운드 마이그레이션 시 유용)
+alembic==1.13.1            # (선택적: DB 마이그레이션 도구)
+
+# --- Templates & Static ---
+jinja2==3.1.4
+aiofiles==23.2.1
+python-multipart==0.0.9     # 파일 업로드 대응
+
+# --- Excel 파일 처리 ---
+openpyxl==3.1.2
+
+# --- 데이터 처리 ---
+pydantic==2.7.1
+python-dateutil==2.9.0     # isoparse() 사용을 위해 필요
+typing-extensions>=4.8.0
+
+# --- 로깅 및 예외 처리 ---
+loguru==0.7.2              # 고급 로깅
+httpx==0.27.0              # async 요청 테스트용 (선택)
+python-dotenv==1.0.1       # .env 환경 파일 로드 (사용 시)
+
+# --- 경로/파일 처리 ---
+pathlib                   # Python 내장 (명시 X)

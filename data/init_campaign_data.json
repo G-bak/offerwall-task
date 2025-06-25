@@ -1,0 +1,11 @@
+{
+  "user_id": "u001",
+  "type": "네이버 쇼핑",
+  "subtype": "상세페이지",
+  "keywords": "키보드, 마우스",
+  "rank_keyword": "게이밍 키보드",
+  "link": "https://shopping.naver.com",
+  "start_date": "2025-06-25T00:00:00+09:00",
+  "end_date": "2025-07-25T23:59:59+09:00",
+  "quantity": 100
+}

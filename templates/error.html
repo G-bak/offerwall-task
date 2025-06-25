@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="ko">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>{{ error_code or 500 }} - {{ error_message or 'Internal Server Error' }}</title>
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico" />
+
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+    <link href="/static/posh/assets/fonts/iconsmind/iconsmind.css" rel="stylesheet">
+    <link href="/static/posh/assets/css/theme.css" rel="stylesheet" />
+    <link href="/static/posh/assets/css/user.css" rel="stylesheet" />
+
+  </head>
+
+
+  <body>
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+      <div data-layout="container">
+        <div class="content">
+          <section class="py-0">
+            <div class="container-fluid">
+              <div class="row justify-content-center align-items-center text-center min-vh-100">
+                <div class="col-lg-6 col-xl-5 px-0">
+                <h1 class="mb-0">{{ error_code or '500' }}</h1>
+                <p class="lead" id="errorTitle">{{ error_message or 'Internal Server Error' }}</p>
+                <p class="lead" id="errorMessage">
+                An unexpected error seems to have occurred. Why not try refreshing your page?
+                Or you can contact us if the problem persists.
+                <span class="badge bg-success text-white fs-10 cursor-pointer" id="translateBtn">Papago</span>
+                <span class="badge bg-danger text-white fs-10 cursor-pointer" id="errorCodeBtn">Error_Code</span>
+                </p>
+                <!-- 깔끔한 메시지 출력 공간 -->
+                <code class="mt-1 text-start text-danger fw-bold" id="errorCodeText" style="display:none;"></code>
+
+                <!-- 👇 추가된 영역 -->
+                <div class="mt-4 d-flex justify-content-center gap-3">
+                    <a href="/">
+                        Return to home
+                    </a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const serverErrorCode = "{{ error_code }}";
+            const serverErrorMessage = `{{ traceback_info | escape | replace('\n', ' ') }}`;
+
+            const translateBtn = document.getElementById('translateBtn');
+            const errorCodeBtn = document.getElementById('errorCodeBtn');
+            const errorMessage = document.getElementById('errorMessage');
+            const errorCodeText = document.getElementById('errorCodeText');
+            const now = new Date();
+            const timeString = now.toLocaleString('ko-KR', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: false // ← 24시간 형식 설정
+            });
+
+            translateBtn.addEventListener('click', function () {
+                errorMessage.innerHTML = `
+                예기치 못한 오류가 발생한 것 같습니다. 페이지를 새로고침하거나 문제가 지속되면 관리자에게 문의하세요.
+                <span class="badge bg-success text-white fs-10 cursor-pointer" id="translateBtn">Papago</span>
+                <span class="badge bg-danger text-white fs-10 cursor-pointer" id="errorCodeBtn">Error_Code</span>
+                `;
+
+                // 다시 버튼 이벤트 바인딩
+                document.getElementById('translateBtn').addEventListener('click', arguments.callee);
+                document.getElementById('errorCodeBtn').addEventListener('click', function () {
+                errorCodeText.style.display = 'inline-block';
+                errorCodeText.textContent = `HTTP ${serverErrorCode} - ${serverErrorMessage} (${timeString} 기준)`;
+                });
+            });
+
+            errorCodeBtn.addEventListener('click', function () {
+                errorCodeText.style.display = 'inline-block';
+                errorCodeText.textContent = `HTTP ${serverErrorCode} - ${serverErrorMessage} (${timeString} 기준)`;
+            });
+        });
+    </script>       
+
+  </body>
+
+</html>
