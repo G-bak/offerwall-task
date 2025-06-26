@@ -82,3 +82,4 @@ media/
 
 # FastAPI cache (optional)
 __pydantic__/
+__pycache__
